@@ -128,8 +128,11 @@ public class AESUtil {
     }
 
     public static void main(String[] args) {
+        //wf1GGDEdzE1eaaMEUev4Cw==     root
+        //rWd3Hb+AzNg3IXF1b5vD+g==     123456
+        //FNFl9F2O2Skb8yoKM0jhHA==     null
         String[] keys = {
-                "", "123456"
+                "", "123456","root"
         };
         System.out.println("key | AESEncode | AESDecode");
         for (String key : keys) {
